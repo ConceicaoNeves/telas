@@ -13,7 +13,7 @@ body {
   font-family: "Outfit";
   color: #ffff;
   display: flex;
-  background-color: #d5cea3;
+  background-color: #001D3D;
 }
 
 .image-login {
@@ -34,7 +34,7 @@ body {
 
 .image-login img {
   width: 80%;
-  animation: float 3s ease-in-out infinite;
+  animation: float 5s ease-in-out infinite;
 }
 
 @keyframes float {
@@ -73,7 +73,7 @@ body {
   width: 100%;
   height: 50px;
   background: #28394D;
-  border: 1px solid #1a120b;
+  border: 1px solid #384b61;
   border-radius: 10px;
   padding: 20px;
   font-size: 1.2rem;
@@ -84,8 +84,8 @@ body {
   width: 100%;
   height: 65px;
   background: #346089;
-  border: 3px solid #1a120b;
-  border-radius: 10px;
+  border: 3px solid #416a91;
+  border-radius: 20px;
   padding: 20px;
   font-size: 1.2rem;
   color: white;
