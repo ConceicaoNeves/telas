@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="assets/css/equipamento.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width" />
+    <title>CEN</title>
+  </head>
+  <body>
+    <header>
+      <ul class="nav justify-content-end">
+        <ul class="nav-item">
+          <a class="nav-link active" href="cadastro.html">Equipamentos</a>
+        </ul>
+        <ul class="nav-item">
+          <a class="nav-link" href="login.html">Empréstimo</a>
+        </ul>
+        <ul class="nav-item">
+          <a class="nav-link" href="#">Usuário</a>
+        </ul>
+        <ul class="nav-item">
+          <a class="nav-link " href="#">Sair</a>
+        </ul>
+      </ul>
+
+    </header>
+
+    <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+            <h1>Equipamentos</h1> 
+            </div>
+            <div class="col-8">
+              <div class="d-grid gap-2 d-md-block" style="justify-content:end">
+                <a href="cad_equipamento.html"><button  class="btn btn-primary" type="button">Novo equipamento</button></a>
+                
+                  <div class="btn btn-secundary">
+                    <div class="input-group">
+                      <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Search" style="border-right: none;">
+                      <div class="input-group-append">
+                        <div class="input-group-text" style="background-color: #FFF"><i class="fas fa-search"></i></div>
+                      </div>
+                    </div>
+                  </div>
+               
+              </div>
+            </div>
+          </div>
+      
+          
+          <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Cod</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Status</th>
+                <th scope="col">Situação</th>
+                <th scope="col">Ver Mais</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+                <td><button type="button" class="btn btn-secondary btn-sm">+</button></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+                <td><button type="button" class="btn btn-secondary btn-sm">+</button></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Larry the Bird</td>
+                <td>@twitter</td>
+                <td><button type="button" class="btn btn-secondary btn-sm">+</button></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+    </body>
+    </html>
+    
